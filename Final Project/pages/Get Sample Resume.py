@@ -6,7 +6,7 @@ from PIL import Image
 
 def _open_ai_(context):
     
-    openai.api_key = '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'
+    openai.api_key = 'API_KEY'
 
     response = openai.Completion.create(
     model="text-davinci-003",
