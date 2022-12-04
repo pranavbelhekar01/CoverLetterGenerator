@@ -2,7 +2,7 @@ import cohere
 class cover_letter:
   def cv(prompt1):
 
-    co = cohere.Client('iSwUoeTncM6gpGVqXJw5DFs2zdaFZbYSPgcXYCIJ')
+    co = cohere.Client('API_KEY')
     response = co.generate(
       model='342dfdb2-0f9d-4b3a-8608-a132648d82a9-ft',
       prompt= prompt1,
